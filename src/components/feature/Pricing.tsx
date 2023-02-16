@@ -11,7 +11,7 @@ export default function Pricing() {
     <div className="mt-10">
       <h1 className="text-center text-5xl font-bold">Pricing</h1>
 
-      <div className="flex flex-col md:mx-20">
+      <div className="flex flex-col mx-2 md:mx-20">
         <table className="mt-5 w-full table-fixed text-center">
           <thead>
             <tr>

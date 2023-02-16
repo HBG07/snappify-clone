@@ -8,6 +8,8 @@ import Hero from "@/components/feature/Hero";
 import CodeStyles from "@/components/feature/CodeStyles";
 import Pricing from "@/components/feature/Pricing";
 import StayUpdate from "@/components/feature/StayUpdate";
+import Mission from "@/components/feature/Mission";
+import Footer from "@/components/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +29,8 @@ export default function Home() {
       <CodeStyles/>
       <Pricing/>
       <StayUpdate/>
+      <Mission/>
+      <Footer/>
     </>
   );
 }
