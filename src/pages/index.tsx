@@ -6,6 +6,8 @@ import Welcome from "@/components/welcome/Welcome";
 import Options from "@/components/feature/Options";
 import Hero from "@/components/feature/Hero";
 import CodeStyles from "@/components/feature/CodeStyles";
+import Pricing from "@/components/feature/Pricing";
+import StayUpdate from "@/components/feature/StayUpdate";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +25,8 @@ export default function Home() {
       <Options/>
       <Hero/>
       <CodeStyles/>
+      <Pricing/>
+      <StayUpdate/>
     </>
   );
 }
