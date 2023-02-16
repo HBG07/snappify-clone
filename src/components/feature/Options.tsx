@@ -16,7 +16,7 @@ export default function Options() {
       {/* Tecnical Content */}
       <div className="mt-10 grid grid-cols-1 gap-8 md:mx-40 md:mt-20 md:grid-cols-2">
         <div>
-          <div className="rounded-xl my-auto bg-gradient-to-r from-red-300 to-red-400 p-1">
+          <div className="my-auto rounded-xl bg-gradient-to-r from-red-300 to-red-400 p-1">
             <img src="/img/code2.png" alt="" />
           </div>
         </div>
@@ -40,8 +40,8 @@ export default function Options() {
 
       {/* Simplify your Education */}
       <div className="mt-10 grid grid-cols-1 gap-8 md:mx-40 md:mt-40 md:grid-cols-2">
-        <div>
-          <div className="rounded-xl bg-gradient-to-r from-blue-300 to-blue-400 p-1 md:order-2">
+        <div className="md:order-2">
+          <div className="rounded-xl bg-gradient-to-r from-blue-300 to-blue-400 p-1 ">
             <img src="/img/code3.png" alt="" />
           </div>
         </div>
@@ -116,7 +116,7 @@ export default function Options() {
       </div>
 
       {/* Add multiple code windows */}
-      <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2 md:mx-40 md:mt-20">
+      <div className="mt-10 grid grid-cols-1 gap-8 md:mx-40 md:mt-20 md:grid-cols-2">
         <div>
           <div className="rounded-xl bg-gradient-to-r from-red-200 to-purple-500 p-10">
             <img src="/img/code5.png" className="mx-auto w-3/4" alt="" />
@@ -142,12 +142,15 @@ export default function Options() {
       </div>
 
       {/* Annotate with Text and Arrows */}
-      <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2 md:mx-40 md:mt-20">
-        <div>
-          <div className="rounded-xl bg-gradient-to-r from-red-200 to-purple-500 p-10 md:order-2">
+      <div className="mt-10 grid grid-cols-1 gap-8 md:mx-40 md:mt-20 md:grid-cols-2">
+        <div className=" md:order-2">
+          <div className="rounded-xl bg-gradient-to-r from-orange-200 to-red-500 p-10">
             <img src="/img/code5.png" className="mx-auto w-3/4" alt="" />
             <div className="flex">
-              <BsLightbulbFill className="mt-7 mr-2 text-yellow-400" size={25} />
+              <BsLightbulbFill
+                className="mt-7 mr-2 text-yellow-400"
+                size={25}
+              />
               <p className="mt-6 text-center text-2xl text-white">
                 {"In TypeScript you're able to assign a type to your"}
                 <span className="underline">variables</span>
@@ -166,8 +169,8 @@ export default function Options() {
             Ever heard the myth of self explaining code? Pah! 😄 <br /> Place
             explanations (or just funny jokes) beside your snippets and style
             them to your needs with our <b>powerful rich-text editor</b>. <br />{" "}
-            Additionally, {"you're"} able to add <b>arrow elements</b> to point at
-            specific parts of your code.
+            Additionally, {"you're"} able to add <b>arrow elements</b> to point
+            at specific parts of your code.
           </p>
           <div className="flex">
             <p className="mt-4 cursor-pointer text-lg underline">Learn More</p>
@@ -177,7 +180,7 @@ export default function Options() {
       </div>
 
       {/* Your branding will be on point */}
-      <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2 md:mx-40 md:mt-20">
+      <div className="mt-10 grid grid-cols-1 gap-8 md:mx-40 md:mt-20 md:grid-cols-2">
         <div>
           <div className="rounded-xl bg-gradient-to-r from-emerald-400 to-emerald-700 p-10">
             <img src="/img/code5.png" className="mx-auto w-3/4" alt="" />
@@ -191,18 +194,18 @@ export default function Options() {
             </h1>
           </div>
           <p className="mt-4 text-lg">
-            If {"you're"} sharing your code snippets on social media, a little bit
-            of branding {"doesn't"} hurt! <br /> You can add your own avatar and
-            specify a username for <b>Twitter, Github, Instagram or LinkedIn</b>
-            .
+            If {"you're"} sharing your code snippets on social media, a little
+            bit of branding {"doesn't"} hurt! <br /> You can add your own avatar
+            and specify a username for{" "}
+            <b>Twitter, Github, Instagram or LinkedIn</b>.
           </p>
         </div>
       </div>
 
       {/* Add custom images */}
-      <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2 md:mx-40 md:mt-20">
-        <div>
-          <div className="rounded-xl bg-gradient-to-r from-purple-700 to-orange-600 p-10 md:order-2">
+      <div className="mt-10 grid grid-cols-1 gap-8 md:mx-40 md:mt-20 md:grid-cols-2">
+        <div className="md:order-2">
+          <div className="rounded-xl bg-gradient-to-r from-purple-700 to-orange-600 p-10 ">
             <img src="/img/code5.png" className="mx-auto w-3/4" alt="" />
             <div className="flex justify-around">
               <FaCss3Alt className="mt-7 mr-2 text-blue-500" size={75} />
@@ -229,7 +232,7 @@ export default function Options() {
       </div>
 
       {/* Highlight your code in different ways */}
-      <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2 md:mx-40 md:mt-20">
+      <div className="mt-10 grid grid-cols-1 gap-8 md:mx-40 md:mt-20 md:grid-cols-2">
         <div>
           <div className="rounded-xl bg-gradient-to-r from-slate-600 to-slate-800 p-10">
             <img src="/img/code6.png" className="mx-auto w-3/4" alt="" />
@@ -244,8 +247,9 @@ export default function Options() {
             </h1>
           </div>
           <p className="mt-4 text-lg">
-            With snappify {"you're"} able to change opacity, blur or gray-out parts
-            of your code so the viewer can <b>focus on what matters</b>. <br />
+            With snappify {"you're"} able to change opacity, blur or gray-out
+            parts of your code so the viewer can <b>focus on what matters</b>.{" "}
+            <br />
             Of course {"it's"} also possible to mark specific lines as
             <b>added or removed</b> to emphasize a change in the code.
           </p>
